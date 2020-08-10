@@ -1,0 +1,65 @@
+.user {
+  background-color: #15b193;
+}
+
+.cantainer-top {
+  padding: 40px 100px 50px 100px;
+  font-family: Arial, Verdana, sans-serif;
+  color: #fff;
+}
+
+.testimonials {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.user-what {
+  font-size: 15px;
+  margin: 8px 0px 16px 0px;
+  text-align: center;
+  font-family: none;
+  margin-bottom: 40px;
+}
+
+.user-qwert {
+  display: flex;
+}
+
+.card {
+  margin-bottom: 15px;
+  margin-right: -10px;
+}
+
+.card-img-top {
+  height: 350px;
+}
+
+.card-text {
+  color: #000;
+  text-align: center;
+}
+
+.card-text-one {
+  font-family: cursive;
+  color: #15b193;
+  text-align: center;
+}
+
+.card-text-wne {
+  color: #000;
+  font-family: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1100px){
+	.card-text-wne{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px){
+	.user-qwert{
+		display: inline;
+	}
+}

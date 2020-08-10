@@ -1,0 +1,89 @@
+
+.containers{
+	margin:20px auto;
+	padding: 0;
+	max-width: 1200px;
+}
+.menu-web{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+.menu-web-name{
+	padding-left: 43%;
+	max-width: 1200px;
+	font-size: 31px;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+	font-family: sans-serif;
+}
+
+.menu-web-pro{
+	text-align: center;
+	font-family: none;
+	margin-bottom: 20px;
+}
+.menus{
+	padding: 8px 13px 8px 13px;
+	color: white;
+	background-color: #15b193;
+	min-width: 120px;
+	text-transform: uppercase;
+}
+.menus:hover, .btn-menus:hover{
+	background-color: #0d8f75;
+    color:#fff;
+    text-decoration: none;
+}
+.textWith{
+    margin-left: -40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+
+}
+.textWithBlurredBg{
+	width: 240px;
+	height: 230px;
+	display: inline-block;
+	margin:15px;
+	position: relative;
+}
+.textWithBlurredBg img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transition: 0.3s;
+	box-shadow: 0 0 10px black;
+	margin: 20px;
+	display: flex;
+}
+.textWithBlurredBg  :not(img){
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: 0.3s;
+}
+.textWithBlurredBg h2{
+	left: 34%;
+	max-width: 120px;
+
+ border:2px solid black;
+ background-color: black;
+}
+.textWithBlurredBg:hover img{
+	filter: brightness(0.5);
+    box-shadow: 0 0 16px cyan;
+cursor: pointer;
+}
+.textWithBlurredBg:hover  :not(img){
+    opacity: 1;
+    cursor: pointer;
+}
