@@ -1,1 +1,1 @@
-# juice.uz
+# BakOne.uz
